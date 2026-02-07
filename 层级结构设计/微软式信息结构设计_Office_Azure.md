@@ -4,18 +4,17 @@
 
 ## 一、Microsoft Office：以「对象 × 任务」定义结构
 
-### 1. 官方结构核心：Object-based + Task-oriented
+### 1. 官方结构核心：Object-based + Task-oriented（以对象为中心 + 以任务为导向）
 
 Microsoft Office 的核心 UI 结构原则是：
 
 > Design around user tasks and the objects they work with.  
 > Commands should be organized around what users want to do, not how the system works.
 
-这一定义来自微软长期使用的命令与结构设计哲学，适用于 Office 与 Windows 系统整体。
+> 围绕用户任务及其处理的对象来设计。  
+> 命令应按用户想做的事来组织，而不是按系统如何运作来组织。
 
-**官方文档：**  
-- Microsoft UX Guide – Command Design  
-  https://learn.microsoft.com/en-us/windows/win32/uxguide/command-design
+这一定义来自微软长期使用的命令与结构设计哲学，适用于 Office 与 Windows 系统整体。
 
 ---
 
@@ -34,9 +33,8 @@ Ribbon 的本质并非视觉创新，而是结构映射机制。
 > The Ribbon exposes commands in a way that directly reflects user goals and tasks.  
 > Commands are grouped by the type of task they support.
 
-**官方文档：**  
-- Ribbon Design Principles  
-  https://learn.microsoft.com/en-us/windows/win32/uxguide/ribbon-design
+> 功能区以一种直接反映用户目标与任务的方式呈现命令。  
+> 命令会按其所支持的任务类型进行分组。
 
 #### Ribbon 中的结构映射
 
@@ -63,10 +61,6 @@ Office 的信息结构围绕
 
 > Contextual UI reduces complexity by surfacing commands only when they are relevant to the current object.
 
-**官方文档：**  
-- Contextual UI Guidelines  
-  https://learn.microsoft.com/en-us/windows/apps/design/controls/contextual-ui
-
 **关键结论：**
 
 - 层级不是静态树  
@@ -86,6 +80,9 @@ Azure 是微软结构思想最工程化、最清晰的体现。
 
 > Azure Resource Manager is the deployment and management service for Azure.  
 > It provides a consistent management layer that allows you to manage your resources as a group.
+
+> Azure Resource Manager 是 Azure 的部署与管理服务。  
+> 它提供一致的管理层，使你能够将资源作为一组进行管理。
 
 **官方文档（关键）：**  
 - Azure Resource Manager Overview  
@@ -148,10 +145,6 @@ Azure Portal 采用 Blade（刀片）模型，而非传统页面跳转。
 
 > Blades provide a way to manage related resources and actions without losing context.
 
-**官方文档：**  
-- Azure Portal Blades  
-  https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-blades
-
 **结构思想：**
 
 - 对象保持不变  
@@ -174,10 +167,6 @@ Azure Portal 采用 Blade（刀片）模型，而非传统页面跳转。
 
 - **Navigation / Presentation Model（呈现模型）**  
   UI 如何展示这些关系  
-
-**参考文档：**  
-- Windows App Design – Signals  
-  https://learn.microsoft.com/en-us/windows/apps/design/signals/
 
 ---
 
