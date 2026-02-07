@@ -72,3 +72,8 @@ GitHub 的层级结构本质上是 **“以仓库为支点的二元世界”**�
 - **Primer Design System:** [https://primer.style/](https://primer.style/)
 - **OOUX Theory by Sophia V.:** [https://www.rewiredux.com/](https://www.rewiredux.com/)
 - **GitHub Engineering: The Repository Model:** [https://docs.github.com/en/rest/repos](https://docs.github.com/en/rest/repos)
+
+---
+
+**注**：  
+文章内容整理来自谷歌 Gemini 3。

@@ -174,6 +174,8 @@ Azure Portal 采用 Blade（刀片）模型，而非传统页面跳转。
 
 > Good UI structure reflects the underlying system model while aligning with user expectations and goals.
 
+> 良好的 UI 结构应反映底层系统模型，同时与用户期望与目标保持一致。
+
 **来源：**  
 - Microsoft Design Principles  
   https://learn.microsoft.com/en-us/windows/apps/design/design-principles
@@ -192,3 +194,5 @@ Azure Portal 采用 Blade（刀片）模型，而非传统页面跳转。
 - Azure 看起来以对象为中心  
 
 **但两者底层逻辑完全一致。**
+
+**注**：文章内容整理来自 ChatGPT 5.2。
